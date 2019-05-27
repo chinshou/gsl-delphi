@@ -17,7 +17,8 @@ begin
   end;
 
   gsl_fit_linear(@X[0], 1, @Y[0], 1, 4, @c0,@c1,@cov00, @cov01, @cov11, @sumsq );
-
+  mean:=gsl_stats_mean(@Y[0], 1,4);
+  std:=gsl_stats_sd(@Y[0], 1, 4);
 
 end;
 ```
