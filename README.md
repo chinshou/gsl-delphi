@@ -1,5 +1,5 @@
 # gsl-delphi
-GSL For Delphi is a delphi header translation of GNU Scientific Library at https://www.gnu.org/software/gsl/ , lastest support version is 2.5+. Prebuilt windows dll also included in the bin folder.
+GSL For Delphi is a delphi header translation of GNU Scientific Library at https://www.gnu.org/software/gsl/ , lastest support version is 2.5+. Prebuilt 32bit windows dll also included in the bin folder.
 
 # To use gsl to do linear regression
 
