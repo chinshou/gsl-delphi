@@ -9,6 +9,8 @@ var
   I: Integer;
   X,Y:array [0..3] of Double;
   c0,c1, cov00, cov01, cov11, sumsq:double;
+  std:Double;
+  mean:double;  
 begin
   for I := 0 to 3 do
   begin
